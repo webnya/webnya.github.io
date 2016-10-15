@@ -1,0 +1,77 @@
+body {
+	font-size: 15px;
+	color: black;
+	background-color: #83CC83;
+	font-family: 'Karla', sans-serif;
+}
+
+#header-nav {
+	background-color: #C1EAC1;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.navbar-header .brand {
+	position: relative;
+	top: 10px;
+	left: 0px;
+	font-size: 1.4em;
+	font-family: 'Bungee Inline', cursive;
+	text-shadow: 1px 1px 1px grey;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-header > button.navbar-toggle:hover {
+	background-color: #83CC83;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+
+}
+
+#collapsable-nav {
+	margin-top: 20px;
+}
+
+#collapsable-nav #nav-list {
+	text-align: center;
+	background-color: lightgrey;
+	margin-bottom: -5px;
+	margin-top: -4px;
+	padding-top: 10px;
+}
+
+
+
+
+h1 {
+	margin-bottom: 20px;
+}
+
+h3 {
+	text-align: center;
+}
+
+.text {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #C1EAC1;
+
+}
+
+@media (max-width: 767px) {
+	.brand {
+		margin-left: 10px;
+	}
+
+	.text {
+		margin: 20px;
+	}
+}
+
